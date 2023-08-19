@@ -1,0 +1,12 @@
+TC;Input;Expected output;Actual output
+#1;Anonymus|Bệnh|2023-01-17 - 2023-07-32|1;Hiển thị thông báo lỗi 'Employee name does not exist' tại trường 'Employee';Input Employee: Required
+#2;|Bệnh|2023-01-17 - 2023-07-33|1;Hiển thị thông báo lỗi 'Required' tại trường 'Employee';Input Employee: Required
+#3;CAO DUC|Bệnh|2023-01-17 - 2023-07-34|-1;Hiển thị thông báo lỗi 'Should be a number with upto 2 decimal places' tại trường 'Entitlement';Input EntitielementShould be a number with upto 2 decimal places
+#4;CAO DUC|Bệnh|2023-01-17 - 2023-07-35|123456;Hiển thị thông báo lỗi 'Should be less than 10000' tại trường 'Entitlement';Input EntitielementShould not be more than 10000
+#5;CAO DUC|Bệnh|2023-01-17 - 2023-07-36|;Hiển thị thông báo lỗi 'Required' tại trường 'Entitlement';Input EntitielementRequired
+#6;CAO DUC|Bệnh|2023-01-17 - 2023-07-37|1.111;Hiển thị thông báo lỗi 'Should be a number with upto 2 decimal places' tại trường 'Entitlement';Input EntitielementShould be a number with upto 2 decimal places
+#7;CAO DUC|Bệnh|2023-01-17 - 2023-07-38|abc;Hiển thị thông báo lỗi 'Should be a number with upto 2 decimal places' tại trường 'Entitlement';Input EntitielementShould be a number with upto 2 decimal places
+#8;CAO DUC|Bệnh|2023-01-17 - 2023-07-39|8-5;Hiển thị thông báo lỗi 'Should be a number with upto 2 decimal places' tại trường 'Entitlement';Input EntitielementShould be a number with upto 2 decimal places
+#9;CAO DUC|Bệnh|2023-01-17 - 2023-07-40|0;Hiển thị popup thông báo 'Successfully Saved';Successfully Saved
+#10;CAO DUC|Bệnh|2023-01-17 - 2023-07-41|10000;Hiển thị thông báo lỗi 'Should be less than 10000' tại trường 'Entitlement';Successfully Saved
+#11;CAO DUC|Bệnh|2023-01-17 - 2023-07-31|1;Hiển thị popup thông báo 'Successfully Saved';Successfully Saved

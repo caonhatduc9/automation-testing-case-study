@@ -1,0 +1,12 @@
+﻿Employee Name,Leave Type,Leave Period,Entitlement,Expected result
+Anonymus,Bệnh,2023-01-17 - 2023-07-32,1,Hiển thị thông báo lỗi 'Employee name does not exist' tại trường 'Employee'
+,Bệnh,2023-01-17 - 2023-07-33,1,Hiển thị thông báo lỗi 'Required' tại trường 'Employee'
+CAO DUC,Bệnh,2023-01-17 - 2023-07-34,-1,Hiển thị thông báo lỗi 'Should be a number with upto 2 decimal places' tại trường 'Entitlement'
+CAO DUC,Bệnh,2023-01-17 - 2023-07-35,123456,Hiển thị thông báo lỗi 'Should be less than 10000' tại trường 'Entitlement'
+CAO DUC,Bệnh,2023-01-17 - 2023-07-36,,Hiển thị thông báo lỗi 'Required' tại trường 'Entitlement'
+CAO DUC,Bệnh,2023-01-17 - 2023-07-37,1.111,Hiển thị thông báo lỗi 'Should be a number with upto 2 decimal places' tại trường 'Entitlement'
+CAO DUC,Bệnh,2023-01-17 - 2023-07-38,abc,Hiển thị thông báo lỗi 'Should be a number with upto 2 decimal places' tại trường 'Entitlement'
+CAO DUC,Bệnh,2023-01-17 - 2023-07-39,8-5,Hiển thị thông báo lỗi 'Should be a number with upto 2 decimal places' tại trường 'Entitlement'
+CAO DUC,Bệnh,2023-01-17 - 2023-07-40,0,Hiển thị popup thông báo 'Successfully Saved'
+CAO DUC,Bệnh,2023-01-17 - 2023-07-41,10000,Hiển thị thông báo lỗi 'Should be less than 10000' tại trường 'Entitlement'
+CAO DUC,Bệnh,2023-01-17 - 2023-07-31,1,Hiển thị popup thông báo 'Successfully Saved'
